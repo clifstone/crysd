@@ -1,0 +1,53 @@
+{
+    "people": [{
+        "name": "John Smith",
+        "height": "6'2\"",
+        "dob": "10\/19\/1980",
+        "interests": [
+            "computers", "baseball", "cats"
+        ],
+        "hobby": null
+    }, {
+        "name": "Jane Smith",
+        "height": "5'4\"",
+        "dob": "6\/20\/1984",
+        "interests": [
+            "novels", "computers", "games"
+        ],
+        "hobby": null
+    }, {
+        "name": "Bob Singleton",
+        "height": "5'8\"",
+        "dob": "6\/23\/1993",
+        "interests": [
+            "cars", "games", "dogs"
+        ],
+        "hobby": null
+    }, {
+        "name": "Walter Taylor",
+        "height": "6'1\"",
+        "dob": "11\/29\/1997",
+        "interests": [
+            "cooking", "cats", "cakes"
+        ],
+        "hobby": null
+    }],
+    "hobbies": {
+        "Baking": [
+            "pastries", "cooking", "cakes"
+        ],
+        "Racing": [
+            "trucks", "boats", "cars"
+        ],
+        "Animal Fostering": [
+            "cats", "dogs", "animals"
+        ],
+        "Reading": [
+            "reading", "books", "novels"
+        ],
+        "Gaming": [
+            "consoles", "games", "computers"
+        ],
+        "Sports": ["football", "baseball", "tennis"]
+    }
+}

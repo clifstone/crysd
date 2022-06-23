@@ -1,0 +1,74 @@
+@use 'scss/reset';
+//
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 900;
+}
+
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+.wrapper,
+.table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    gap: 2rem;
+}
+
+.table {
+    width: 100%;
+    overflow: auto;
+    padding: 4px;
+}
+
+.logo {
+    max-width: 300px;
+}
+
+.sorta {
+    border-collapse: collapse;
+}
+
+.sorta td,
+.sorta th {
+    padding: 10px;
+    text-align: left;
+}
+
+.sorta thead {
+    font-weight: 700;
+    color: #fff;
+    background: #2c9ab7;
+}
+
+.sorta thead *::selection {
+    background: none;
+}
+
+.sorta tbody tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.sortup {
+    background: #363d45;
+}
+
+.sortdown {
+    background: #992637;
+}
